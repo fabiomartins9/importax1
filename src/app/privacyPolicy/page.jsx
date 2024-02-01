@@ -2,7 +2,7 @@ import { Container } from "@/components/container";
 
 export default function PrivacyPolicy() {
   return (
-    <Container className="max-w-2xl mx-auto mt-8">
+    <Container className="max-w-2xl mx-auto p-10">
       <h1 className="text-3xl font-bold mb-4">Política de Privacidade</h1>
       <p className="mb-4">
         A sua privacidade é importante para nós. É política do Importax

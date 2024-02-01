@@ -1,7 +1,7 @@
 export default function About(){
     return(
 
-  <div class="container mx-auto p-8">
+  <div class="container mx-auto p-10">
     <h1 class="text-4xl font-bold mb-8">Bem-vindo ao Importax - Sua Calculadora de Importação Inteligente!</h1>
 
     <p class="mb-4">Seja você um empresário global, um entusiasta de compras internacionais ou alguém que está apenas começando a explorar o mundo das importações, o Importax está aqui para simplificar o processo e tornar tudo mais transparente.</p>

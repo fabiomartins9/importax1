@@ -1,0 +1,8 @@
+/* Adicione este estilo para fixar o footer no final da página */
+#fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
