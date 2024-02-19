@@ -11,6 +11,7 @@ import  firebase  from "@/utils/firebase";
 import "firebase/firestore";
 import { QuestionCircleOutlined, } from "@ant-design/icons";
 import InputMask from 'react-input-mask';
+import ImportExplanation from "../ImportExplanation/ImportExplanation";
 
 export default function ImpotPage() {
   const [icms, setIcms] = useState(0);
@@ -174,7 +175,8 @@ export default function ImpotPage() {
   };
 
   return (
-    <div className="w-full flex flex-col md:flex-row gap-4 h-full  px-28">
+    <di>
+    <div className="flex flex-col md:flex-row gap-4 h-full  px-28">
       
     <div className="w-full md:w-1/2 flex flex-col">
     <Form ref={formRef} onValuesChange={handleFormChange} className="">
@@ -292,7 +294,7 @@ export default function ImpotPage() {
     </div>
     
 </div>
-              
-
+<ImportExplanation/>          
+</di>
   );
 }
